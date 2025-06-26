@@ -1,22 +1,183 @@
+/* Font e sfondo generale */
 body {
-  font-family: sans-serif;
-  max-width: 700px;
-  margin: 20px auto;
-  padding: 0 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Titolo principale */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Form utente */
+#user-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
 }
 
 #user-form input {
-  margin: 5px;
-  padding: 8px;
+  padding: 12px 15px;
+  border: 1.8px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 180px;
+  transition: border-color 0.3s ease;
 }
 
-.email-card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-top: 20px;
-  background: #f9f9f9;
-  border-radius: 8px;
+#user-form input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px #4a90e2;
 }
-pre {
+
+#user-form button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(74,144,226,0.4);
+}
+
+#user-form button:hover {
+  background-color: #357ABD;
+}
+
+/* Contenitore principale: menu + contenuto */
+.container {
+  display: flex;
+  gap: 25px;
+}
+
+/* Sidebar menu categorie */
+#category-menu {
+  flex-shrink: 0;
+  width: 210px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  padding: 20px 15px;
+}
+
+#category-menu button {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px 18px;
+  border: none;
+  background: #e8f0fe;
+  color: #1a73e8;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  box-shadow: inset 0 0 0 0 transparent;
+}
+
+#category-menu button:hover {
+  background-color: #c1d4fc;
+  color: #135abf;
+}
+
+#category-menu button.active {
+  background-color: #1a73e8;
+  color: white;
+  box-shadow: 0 4px 12px rgba(26,115,232,0.5);
+}
+
+/* Area principale email */
+main#email-list {
+  flex-grow: 1;
+}
+
+/* Card singola email */
+.email-card {
+  background: white;
+  padding: 22px 24px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.email-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.14);
+}
+
+.email-card h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #34495e;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.email-card pre {
   white-space: pre-wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+  background: #f0f4f8;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid #d1dbe7;
+  margin-bottom: 14px;
+  user-select: text;
+}
+
+#coffee-banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff813f;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 9999;
+  transition: background 0.3s ease;
+  user-select: none;
+}
+
+#coffee-banner a {
+  color: white;
+  text-decoration: none;
+}
+
+#coffee-banner:hover {
+  background: #ff6b00;
+}
+
+/* Bottone copia */
+.email-card button {
+  background-color: #34a853;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(52,168,83,0.4);
+}
+
+.email-card button:hover {
+  background-color: #2c8a43;
 }

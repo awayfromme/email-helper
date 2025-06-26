@@ -1,10 +1,157 @@
 [
   {
+    "category": "Ferien",
     "title": "Richiesta ferie",
-    "body": "Gentile Responsabile,\n\nSono {{NOME}} {{COGNOME}} e desidero richiedere ferie dal 10 al 14 luglio.\n\nCordiali saluti,\n{{NOME}} {{COGNOME}}"
+    "body": {
+      "superformale": [
+        "Spettabile Direzione, mi permetto di sottoporre alla Vostra cortese attenzione la mia richiesta di usufruire di un periodo di ferie annuali dal giorno 10 al giorno 14 luglio p.v., al fine di poter adempiere a impegni personali improrogabili e di natura familiare. Resto in attesa di un Vostro gentile riscontro e sono a disposizione per concordare eventuali modalità di copertura delle mie attività durante la mia assenza. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Egregi Signori, con la presente desidero formalmente richiedere un periodo di ferie dal 15 al 20 agosto 2025 incluso, nella speranza che tale richiesta possa essere accolta compatibilmente con le esigenze aziendali. Garantisco la mia massima disponibilità a predisporre ogni utile documento o passaggio di consegne necessario a garantire la continuità operativa. Resto a disposizione per qualsiasi ulteriore chiarimento. Cordialmente, {{NOME}} {{COGNOME}}",
+        "Alla cortese attenzione dell’Ufficio Risorse Umane, con la presente comunico la mia intenzione di fruire di un periodo di ferie retribuite dal 1° al 5 settembre 2025, inclusi. Tale pausa lavorativa è motivata dalla necessità di riposo e recupero personale dopo un intenso periodo di attività. Confido in una sollecita approvazione e ringrazio anticipatamente per la disponibilità. Con osservanza, {{NOME}} {{COGNOME}}"
+      ],
+      "formale": [
+        "Gentile Responsabile, sono {{NOME}} {{COGNOME}} e desidero richiedere formalmente un periodo di ferie per il periodo compreso tra il 10 e il 14 luglio. Confido nella vostra comprensione e nella possibilità di pianificare le mie attività lavorative in modo da non arrecare disagi. Rimango a disposizione per organizzare eventuali sostituzioni o trasferimenti di incarichi. Cordiali saluti, {{NOME}} {{COGNOME}}",
+        "Buongiorno, con questa email vorrei comunicare la mia volontà di prendere un periodo di ferie dal 15 al 20 agosto. Sono disponibile a discutere le modalità di copertura durante la mia assenza e a fornire tutte le informazioni necessarie. Attendo un vostro riscontro in merito. Grazie, {{NOME}}",
+        "Salve, vorrei segnalare la mia intenzione di usufruire di ferie dal 1 al 5 settembre prossimi. Vi prego di considerare questa richiesta compatibilmente con le esigenze del team. Resto a disposizione per coordinare il mio lavoro in modo da garantire continuità. Cordiali saluti, {{NOME}}"
+      ],
+      "informale": [
+        "Ciao, sono {{NOME}} e volevo chiedere ferie dal 10 al 14 luglio. Fammi sapere se va bene, così mi organizzo con il resto. Grazie mille! A presto, {{NOME}}",
+        "Ehi, pensavo di prendermi qualche giorno di ferie dal 15 al 20 agosto. Fatemi sapere se posso. Grazie! {{NOME}}",
+        "Salve, vorrei staccare un po’ e prendermi ferie dal 1 al 5 settembre. Fatemi sapere quando è possibile. Grazie, {{NOME}}"
+      ],
+      "amichevole": [
+        "Ciao, volevo avvisarti che mi piacerebbe prendermi qualche giorno di ferie dal 10 al 14 luglio per ricaricare un po’ le batterie. Spero sia possibile, fammi sapere! Grazie mille, {{NOME}}",
+        "Hey, sto pensando di staccare un po’ dal lavoro e prendermi ferie dal 15 al 20 agosto. Ti va bene? A presto, {{NOME}}",
+        "Ciao, mi prendo qualche giorno di ferie dal 1 al 5 settembre, così mi riposo un po’. Fammi sapere se ci sono problemi! Grazie, {{NOME}}"
+      ],
+      "scherzoso": [
+        "Capo, sto per diventare un cactus se non mi dai ferie dal 10 al 14 luglio! Ti prometto che tornerò più produttivo che mai. Dai, fammi questo regalo! {{NOME}}",
+        "Ehi boss, se non mi concedi ferie dal 15 al 20 agosto rischio di trasformarmi in un meme ambulante. Aiutami a evitare la catastrofe! {{NOME}}",
+        "Sto a pezzi, capo! Se non mi dai ferie dal 1 al 5 settembre divento il personaggio di una sitcom comica. Dacci dentro con la tua clemenza! {{NOME}}"
+      ]
+    }
   },
   {
+    "category": "Salute",
     "title": "Comunicazione malattia",
-    "body": "Buongiorno,\n\nSono {{NOME}} {{COGNOME}} e comunico che oggi non potrò recarmi a lavoro per motivi di salute.\n\nGrazie per la comprensione."
+    "body": {
+      "superformale": [
+        "Buongiorno, desidero informarVi che, a causa di condizioni di salute impreviste, non sarò in grado di presentarmi al lavoro nella giornata odierna. Sono a disposizione per fornire certificati medici o ulteriori documentazioni qualora fossero richiesti. Ringrazio per la comprensione e resto in attesa di eventuali istruzioni. Cordiali saluti, {{NOME}} {{COGNOME}}",
+        "Gentili Responsabili, a seguito di un improvviso malessere, mi vedo costretto a comunicare la mia assenza dal lavoro odierna per motivi di salute. Provvederò a trasmettere tutta la documentazione medica necessaria nel più breve tempo possibile. Grazie per la collaborazione. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Alla cortese attenzione dell’Ufficio Risorse Umane, con la presente comunico la mia impossibilità a recarmi in ufficio per la giornata di oggi per ragioni di salute, accompagnata da relativa certificazione medica. Resto a disposizione per aggiornamenti e chiarimenti. Con osservanza, {{NOME}} {{COGNOME}}"
+      ],
+      "formale": [
+        "Buongiorno, oggi non potrò venire a lavoro per motivi di salute. Vi informerò appena possibile sul mio rientro e fornirò la documentazione necessaria. Grazie per la comprensione. Cordiali saluti, {{NOME}}",
+        "Salve, a causa di un malessere improvviso, non sarò presente al lavoro oggi. Vi terrò aggiornati appena possibile. Grazie per la disponibilità, {{NOME}}",
+        "Gentili colleghi, desidero comunicare la mia assenza per malattia nella giornata odierna. Spero di rientrare presto e vi ringrazio per la comprensione. Cordialmente, {{NOME}}"
+      ],
+      "informale": [
+        "Ciao, oggi non riesco a venire a lavoro perché sto male. Scusate, {{NOME}}",
+        "Ehi, mi sento poco bene oggi, non riesco a venire. Ci vediamo presto, {{NOME}}",
+        "Salve, sto male oggi e non posso venire. Grazie per la comprensione, {{NOME}}"
+      ],
+      "amichevole": [
+        "Hey, oggi sono a casa malato, conto di rientrare presto. A presto! {{NOME}}",
+        "Ciao, purtroppo oggi sono a letto con la febbre. Spero di tornare presto operativo. Grazie della comprensione! {{NOME}}",
+        "Ciao ragazzi, oggi mi prendo un giorno per riposare e guarire. Ci vediamo presto! {{NOME}}"
+      ],
+      "scherzoso": [
+        "Oggi sto a casa con l'influenza, niente pizza per me! Ci sentiamo presto, {{NOME}}",
+        "Boss, oggi sono ufficialmente fuori servizio per malattia, giuro che non è solo per evitare la riunione! {{NOME}}",
+        "Sono a casa malato, quindi niente scherzi, torno più forte che mai! {{NOME}}"
+      ]
+    }
+  },
+  {
+    "category": "Meeting",
+    "title": "Richiesta riunione prodotto",
+    "body": {
+      "superformale": [
+        "Gentile Team, con la presente desidero proporre l’organizzazione di una riunione dedicata alla discussione approfondita del prodotto in sviluppo. Ritengo fondamentale un confronto per allineare le strategie e definire i prossimi passi. Rimango in attesa di un vostro gentile riscontro per concordare data e orario. Cordiali saluti, {{NOME}} {{COGNOME}}",
+        "Alla cortese attenzione del team, propongo di fissare un incontro operativo per valutare lo stato di avanzamento del progetto prodotto e pianificare le attività future. Sono disponibile a coordinare la riunione secondo le vostre disponibilità. In attesa di un riscontro, vi ringrazio anticipatamente. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Egregi colleghi, vorrei richiedere una riunione tecnica per discutere dettagliatamente gli aspetti critici del prodotto e per raccogliere feedback utili. Vi prego di indicarmi le vostre disponibilità così da organizzare al meglio l’incontro. Cordialmente, {{NOME}} {{COGNOME}}"
+      ],
+      "formale": [
+        "Buongiorno a tutti, vorrei proporre una riunione per parlare del prodotto che stiamo sviluppando. Fatemi sapere quando siete disponibili così da poter fissare un appuntamento. Grazie, {{NOME}}",
+        "Salve, sarebbe utile organizzare una call per aggiornarsi sullo stato del prodotto. Attendo vostre disponibilità per calendarizzare l’incontro. Cordiali saluti, {{NOME}}",
+        "Gentili colleghi, vi propongo di fissare una riunione per discutere alcuni aspetti del prodotto. Fatemi sapere quando vi fa comodo. Grazie, {{NOME}}"
+      ],
+      "informale": [
+        "Ciao a tutti, possiamo organizzarci per una riunione sul prodotto? Fatemi sapere quando vi va bene. Grazie! {{NOME}}",
+        "Ehi, facciamo una call per parlare del prodotto? Scrivetemi le vostre disponibilità. Ciao, {{NOME}}",
+        "Salve, voglio fare un incontro per discutere del prodotto. Quando siete liberi? {{NOME}}"
+      ],
+      "amichevole": [
+        "Ciao ragazzi, sarebbe bello fare una riunione per vedere insieme come va il prodotto. Fatemi sapere quando vi va bene. Grazie! {{NOME}}",
+        "Hey, pensavo di fare una call per aggiornarci sul prodotto. Quando siete disponibili? A presto, {{NOME}}",
+        "Ciao a tutti, organizziamo un meeting per parlare del prodotto? Fatemi sapere! {{NOME}}"
+      ],
+      "scherzoso": [
+        "Ragazzi, serve una riunione urgente sul prodotto prima che ci trasformiamo tutti in statue! Quando vi va? {{NOME}}",
+        "Ehi team, facciamo una call sul prodotto così evitiamo di perdere la testa. Scrivetemi quando siete liberi! {{NOME}}",
+        "Dai, organizziamo una riunione sul prodotto prima che il nostro codice inizi a scrivere da solo! Quando siete? {{NOME}}"
+      ]
+    }
+  },
+  {
+    "category": "Salario",
+    "title": "Richiesta revisione stipendio",
+    "body": {
+      "superformale": [
+        "Spettabile Direzione, desidero sottoporre alla Vostra cortese attenzione la presente richiesta di revisione del mio inquadramento retributivo, alla luce dei risultati conseguiti nell’ultimo anno e del valore aggiunto apportato al team e all’azienda. Ritengo che un adeguamento dello stipendio possa riflettere in modo più equo l’impegno profuso e le responsabilità assunte. Resto disponibile per un confronto approfondito e ringrazio anticipatamente per la cortese attenzione. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Egregi Signori, con la presente intendo richiedere una revisione della mia retribuzione, motivata dall’aumento delle mie competenze e dai contributi significativi apportati ai recenti progetti aziendali. Sono fiducioso che la Vostra valutazione terrà in considerazione questi elementi e resto a disposizione per un colloquio in merito. Cordialmente, {{NOME}} {{COGNOME}}",
+        "Alla cortese attenzione dell’Ufficio Risorse Umane, con la presente sottopongo formale richiesta di adeguamento salariale in considerazione delle maggiori responsabilità assunte e dei risultati conseguiti nel corso dell’anno corrente. Confido in un riscontro positivo e ringrazio anticipatamente per la disponibilità. Con osservanza, {{NOME}} {{COGNOME}}"
+      ],
+      "formale": [
+        "Gentile Responsabile, vorrei richiedere un incontro per discutere una possibile revisione del mio stipendio, in considerazione dei risultati raggiunti e delle responsabilità attuali. Rimango disponibile a fornire ulteriori dettagli in merito. Cordiali saluti, {{NOME}}",
+        "Buongiorno, vorrei parlare con voi riguardo a un possibile adeguamento della mia retribuzione. Sono disponibile a fissare un appuntamento per discuterne. Grazie, {{NOME}}",
+        "Salve, desidero segnalare il mio interesse a discutere una revisione del mio stipendio, in linea con l’aumento delle mie competenze e carichi di lavoro. Attendo un vostro riscontro. Cordialmente, {{NOME}}"
+      ],
+      "informale": [
+        "Ciao, volevo parlare di un possibile aumento di stipendio visto il mio impegno. Fammi sapere quando possiamo discuterne. Grazie, {{NOME}}",
+        "Ehi, pensavo fosse il momento di rivedere il mio salario. Quando possiamo parlare? {{NOME}}",
+        "Salve, vorrei chiedere un aumento, possiamo organizzarci per parlarne? {{NOME}}"
+      ],
+      "amichevole": [
+        "Ciao, volevo fare due chiacchiere riguardo a un possibile aumento di stipendio, se ti va bene. Fammi sapere quando sei disponibile! {{NOME}}",
+        "Hey, pensavo di parlare con te per vedere se c’è spazio per un piccolo aumento. Quando ti va? {{NOME}}",
+        "Ciao, mi piacerebbe discutere del mio stipendio per capire se si può migliorare un po’. Fammi sapere! {{NOME}}"
+      ],
+      "scherzoso": [
+        "Boss, è ora di rivedere il mio stipendio prima che inizi a lavorare in nero! Quando parliamo? {{NOME}}",
+        "Ehi capo, se non rivediamo il mio salario rischio di iniziare a portare il pranzo da casa ogni giorno! Facciamo due parole? {{NOME}}",
+        "Dai, parliamo di soldi prima che inizi a vendere il nostro server per pagarmi! {{NOME}}"
+      ]
+    }
+  },
+  {
+    "category": "Carriera",
+    "title": "Richiesta opportunità di crescita",
+    "body": {
+      "superformale": [
+        "Spettabile Direzione, con la presente desidero manifestare il mio interesse a esplorare opportunità di crescita professionale all’interno dell’azienda. Ritengo che un percorso di sviluppo strutturato possa valorizzare ulteriormente le mie competenze e contribuire in modo significativo agli obiettivi aziendali. Sarebbe per me un onore poter discutere eventuali possibilità di avanzamento e formazione, restando a disposizione per un colloquio approfondito. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Egregi Signori, desidero sottoporre alla Vostra attenzione la mia volontà di intraprendere un percorso di crescita professionale, attraverso l’assunzione di maggiori responsabilità e l’ampliamento delle mie competenze. Sono convinto che questo potrà favorire un ulteriore contributo al successo dell’azienda. Ringrazio anticipatamente per la disponibilità e rimango in attesa di un cortese riscontro. Cordialmente, {{NOME}} {{COGNOME}}",
+        "Alla cortese attenzione dell’Ufficio Risorse Umane, con la presente comunico la mia intenzione di candidarmi per opportunità di sviluppo professionale e avanzamento di carriera. Confido in un riscontro positivo e ringrazio per la considerazione. Con osservanza, {{NOME}} {{COGNOME}}"
+      ],
+      "formale": [
+        "Gentile Responsabile, vorrei esprimere il mio interesse per opportunità di crescita professionale all’interno dell’azienda. Sono disponibile a discutere come potrei assumere maggiori responsabilità o seguire percorsi di formazione. Resto in attesa di un vostro gentile riscontro. Cordiali saluti, {{NOME}}",
+        "Buongiorno, desidero comunicare la mia volontà di crescere professionalmente e assumere ruoli con maggiori responsabilità. Sarebbe un piacere poter discutere le opportunità esistenti. Grazie, {{NOME}}",
+        "Salve, vorrei manifestare interesse per avanzamenti di carriera o progetti formativi che possano aiutarmi a migliorare. Attendo vostre indicazioni in merito. Cordialmente, {{NOME}}"
+      ],
+      "informale": [
+        "Ciao, vorrei crescere professionalmente e prendere più responsabilità. Possiamo parlarne? Grazie, {{NOME}}",
+        "Ehi, mi piacerebbe fare un passo avanti nella mia carriera. Quando possiamo discuterne? {{NOME}}",
+        "Salve, voglio crescere nel mio lavoro e assumere nuovi ruoli. Fammi sapere come procedere. {{NOME}}"
+      ],
+      "amichevole": [
+        "Ciao, stavo pensando che sarebbe bello avere qualche opportunità in più per crescere professionalmente. Ti va di parlarne? {{NOME}}",
+        "Hey, mi piacerebbe parlare con te di come posso migliorare e assumere più responsabilità. Quando sei libero? {{NOME}}",
+        "Ciao, vorrei crescere e imparare di più nel mio ruolo. Facciamo due chiacchiere? {{NOME}}"
+      ],
+      "scherzoso": [
+        "Boss, voglio scalare la vetta aziendale prima di diventare un cactus! Parliamo di carriera? {{NOME}}",
+        "Ehi capo, se non mi dai opportunità di crescita rischio di diventare un meme da scrivania! Facciamo due parole? {{NOME}}",
+        "Dai, aiutami a salire la scala del successo prima che mi trasformi in pianta da ufficio! {{NOME}}"
+      ]
+    }
   }
 ]
