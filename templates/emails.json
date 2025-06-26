@@ -1,10 +1,10 @@
 [
   {
-    "category": "Ferien",
+    "category": "Ferie",
     "title": "Richiesta ferie",
     "body": {
       "superformale": [
-        "Spettabile Direzione, mi permetto di sottoporre alla Vostra cortese attenzione la mia richiesta di usufruire di un periodo di ferie annuali dal giorno 10 al giorno 14 luglio p.v., al fine di poter adempiere a impegni personali improrogabili e di natura familiare. Resto in attesa di un Vostro gentile riscontro e sono a disposizione per concordare eventuali modalità di copertura delle mie attività durante la mia assenza. Distinti saluti, {{NOME}} {{COGNOME}}",
+        "Spettabile {{DESTINATARIO}}, mi permetto di sottoporre alla Vostra cortese attenzione la mia richiesta di usufruire di un periodo di ferie annuali dal giorno 10 al giorno 14 luglio p.v., al fine di poter adempiere a impegni personali improrogabili e di natura familiare. Resto in attesa di un Vostro gentile riscontro e sono a disposizione per concordare eventuali modalità di copertura delle mie attività durante la mia assenza. Distinti saluti, {{NOME}} {{COGNOME}}",
         "Egregi Signori, con la presente desidero formalmente richiedere un periodo di ferie dal 15 al 20 agosto 2025 incluso, nella speranza che tale richiesta possa essere accolta compatibilmente con le esigenze aziendali. Garantisco la mia massima disponibilità a predisporre ogni utile documento o passaggio di consegne necessario a garantire la continuità operativa. Resto a disposizione per qualsiasi ulteriore chiarimento. Cordialmente, {{NOME}} {{COGNOME}}",
         "Alla cortese attenzione dell’Ufficio Risorse Umane, con la presente comunico la mia intenzione di fruire di un periodo di ferie retribuite dal 1° al 5 settembre 2025, inclusi. Tale pausa lavorativa è motivata dalla necessità di riposo e recupero personale dopo un intenso periodo di attività. Confido in una sollecita approvazione e ringrazio anticipatamente per la disponibilità. Con osservanza, {{NOME}} {{COGNOME}}"
       ],

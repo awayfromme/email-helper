@@ -3,32 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Email Helper</title>
+  <title>Scrivi Tu, mi Scoccio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <div id="coffee-banner">
-  ☕ <a href="https://www.paypal.me/yooooo" target="_blank" rel="noopener noreferrer">
+  ☕ <a href="https://paypal.me/erazzano404" target="_blank" rel="noopener noreferrer">
   Buy me a coffee
 </a>
 </div>
 <body>
-<h1>Email Helper</h1>
+<h1>Scrivi Tu,  mi Scoccio</h1>
 
 <div id="user-form">
   <input type="text" id="nome" placeholder="Nome" />
   <input type="text" id="cognome" placeholder="Cognome" />
   <button onclick="salvaUtente()">Salva</button>
 </div>
-<label for="tono" style="font-weight: bold; margin-right: 8px;">Scegli tono:</label>
-<select id="tono">
-  <option value="superformale">Super formale</option>
-  <option value="formale" selected>Formale</option>
-  <option value="informale">Informale</option>
-  <option value="amichevole">Amichevole</option>
-  <option value="scherzoso">Scherzoso</option>
+
+<label for="tono" class="select-label" style="font-weight: bold; margin-right: 8px;">Scegli tono:</label>
+<select id="tono"class="custom-select">
+  <option value="superformale">🧐 Super formale</option>
+  <option value="formale" selected>💼 Formale</option>
+  <option value="informale">🗣️ Informale</option>
+  <option value="amichevole">🤝 Amichevole</option>
+  <option value="scherzoso">😂 Scherzoso</option>
 </select>
-
-
 
 <div class="container">
   <nav id="category-menu"></nav>

@@ -5,13 +5,15 @@ let currentCategory = null;
 function salvaUtente() {
   const nome = document.getElementById("nome").value.trim();
   const cognome = document.getElementById("cognome").value.trim();
+  const destinatario = document.getElementById("destinatario").value.trim();
   const tono = document.getElementById("tono").value;
-  if (!nome || !cognome) return alert("Inserisci entrambi i campi!");
+  if (!nome || !cognome) return alert("Inserisci nome e cognome!");
 
-  user = { nome, cognome, tono };
+  user = { nome, cognome, destinatario, tono };
   localStorage.setItem("user", JSON.stringify(user));
   caricaEmail();
 }
+
 
 async function caricaEmail() {
   if (templates.length === 0) {
@@ -59,7 +61,7 @@ function mostraEmail() {
     mailsForTone.forEach(bodyTemplate => {
       const body = bodyTemplate
           .replace(/{{NOME}}/g, user.nome)
-          .replace(/{{COGNOME}}/g, user.cognome);
+          .replace(/{{COGNOME}}/g, user.cognome)
 
       // Formatto il testo sostituendo ". " con ".<br>"
       const formattedBody = body.replace(/\. /g, ".<br>");
@@ -108,3 +110,4 @@ window.onload = () => {
   }
   caricaEmail();
 };
+
