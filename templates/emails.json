@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Richiesta ferie",
+    "body": "Gentile Responsabile,\n\nSono {{NOME}} {{COGNOME}} e desidero richiedere ferie dal 10 al 14 luglio.\n\nCordiali saluti,\n{{NOME}} {{COGNOME}}"
+  },
+  {
+    "title": "Comunicazione malattia",
+    "body": "Buongiorno,\n\nSono {{NOME}} {{COGNOME}} e comunico che oggi non potrò recarmi a lavoro per motivi di salute.\n\nGrazie per la comprensione."
+  }
+]
